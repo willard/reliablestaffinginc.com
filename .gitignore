@@ -2,3 +2,4 @@ data/mysql/*
 data/redis/*
 wordpress/wp-config.php
 wordpress/wp-content/themes/windpress/node_modules
+.env
