@@ -1,4 +1,4 @@
-#Reliable Staffing website using WordPress on a Docker container, using tailwindcss and alpinejs with rollupjs for the bundler
+# Reliable Staffing website using WordPress on a Docker container, using tailwindcss and alpinejs with rollupjs for the bundler
 
 
 change the variables in .env
