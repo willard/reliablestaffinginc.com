@@ -53,7 +53,7 @@ $jobs = rs_jobs();
     </div>
   </section>
   <section class="text-gray-500 bg-gray-900 body-font relative text-center h-64 flex items-center justify-center flex-col">
-    <p>lipsum here</p>
+    <p>Grit, Growth, Giving, and Gratitude</p>
   </section>
 </main>
 <?php
