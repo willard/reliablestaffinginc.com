@@ -606,3 +606,4 @@ Stack trace:
 2020/10/16 14:43:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:37
 2020/10/16 14:44:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:37
 2020/10/16 14:45:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:37
+2020/10/16 14:46:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:37
