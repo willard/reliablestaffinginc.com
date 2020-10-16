@@ -1,5 +1,11 @@
 data/mysql/*
 data/redis/*
+!data/mysql/.gitkeep
+!data/redis/.gitkeep
+certbot/etc/*
+certbot/var/*
+!certbot/etc/.gitkeep
+!certbot/var/.gitkeep
 wordpress/wp-config.php
 wordpress/wp-content/themes/windpress/node_modules
 .env
