@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+PRODID:-//Indeed Inc//Indeed for Employers 1//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20201007T150649Z
+DTSTART:20201008T130000Z
+DTEND:20201008T133000Z
+SUMMARY:Interview request for Willard Macay
+UID:7773a780195a9c61cb8a80ae6fb96c63908c88548271@indeed.com
+ORGANIZER:mailto:info3542787_6fi@indeedemail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=willardmacay@gmail.com:mailto:willardmacay@gmail.com
+DESCRIPTION:Good Morning Willard\,\n\nThank you for taking the time to talk to us about the Full Stack Developer position. We enjoyed getting to know you and we’d like to invite you for a second interview with our technical team.\n\nYour interview will be with two technical leads and will last approximately 30 minutes. Would you be available on October 8th at 9:00am EST? Please provide your email where I can send you a video call invite for the interview and your current telephone number (in case of technical issues).\n\nLooking forward to chatting with you again\,\n\nKind regards\,\nKashan
+LAST-MODIFIED:20201007T150649Z
+LOCATION:
+SEQUENCE:1
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,11 @@
+{
+  "name": "rs-contact",
+  "version": "1.0.0",
+  "description": "WP Plugin",
+  "main": "./src/plugin.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

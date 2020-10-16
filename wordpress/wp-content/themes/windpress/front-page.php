@@ -2,99 +2,46 @@
 <main id="site-content" role="main">
   <section id="hero" class="text-gray-500 bg-gray-900 body-font h-screen-7 my-auto flex justify-center bg-fixed bg-no-repeat bg-center bg-cover" style="background-image:url(<?php the_field('hero_background'); ?>)">
     <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col relative z-10">
-      <!-- <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
-      <div class="text-center lg:w-2/3 w-full">
-        <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-black">
+      <div class="text-center lg:w-2/3 w-full bg-black rounded bg-opacity-75 p-10 text-white">
+        <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium">
           <?php the_field('hero_title'); ?>
         </h1>
-        <p class="leading-relaxed mb-8 text-xl text-black">
+        <p class="leading-relaxed mb-8 text-xl">
           <?php the_field('hero_description'); ?>
         </p>
         <div class="flex justify-center">
-          <button class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Contact Us</button>
-          <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Jobs</button>
+          <a href="/contact" class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-500 rounded text-lg">Contact Us</a>
+          <a href="/jobs" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Jobs</a>
         </div>
       </div>
     </div>
   </section>
+ 
+ <!-- services -->
   <section class="text-gray-500 body-font bg-gray-900">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Pitchfork Kickstarter Taxidermy</h1>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Services</h1>
         <p class="lg:w-1/2 w-full leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
       </div>
       <div class="flex flex-wrap -m-4">
-        <div class="xl:w-1/3 md:w-1/2 p-4">
+      
+      <?php $services = rs_services(); ?>
+      <?php foreach( $services as $service ): ?>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
           <div class="border border-gray-800 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-orange-400 mb-4">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
-            </div>
-            <h2 class="text-lg text-white font-medium title-font mb-2">Shooting Stars</h2>
-            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+            <h2 class="text-lg text-white font-medium title-font mb-2">
+              <a href="<?php echo $service['url']; ?>"><?php echo $service['title']; ?></a>
+            </h2>
+            <p class="leading-relaxed text-base">
+              <?php echo $service['excerpt']; ?>
+            </p>
+            <a href="<?php echo $service['url']; ?>" class="block text-sm my-2 text-right text-orange-500 hover:text-orange-600">Read More</a>
           </div>
         </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-800 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-orange-400 mb-4">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                <circle cx="6" cy="6" r="3"></circle>
-                <circle cx="6" cy="18" r="3"></circle>
-                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-              </svg>
-            </div>
-            <h2 class="text-lg text-white font-medium title-font mb-2">The Catalyzer</h2>
-            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-          </div>
-        </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-800 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-orange-400 mb-4">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
-            </div>
-            <h2 class="text-lg text-white font-medium title-font mb-2">Neptune</h2>
-            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-          </div>
-        </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-800 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-orange-400 mb-4">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-              </svg>
-            </div>
-            <h2 class="text-lg text-white font-medium title-font mb-2">Melanchole</h2>
-            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-          </div>
-        </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-800 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-orange-400 mb-4">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-              </svg>
-            </div>
-            <h2 class="text-lg text-white font-medium title-font mb-2">Bunker</h2>
-            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-          </div>
-        </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-800 p-6 rounded-lg">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-orange-400 mb-4">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
-            </div>
-            <h2 class="text-lg text-white font-medium title-font mb-2">Ramona Falls</h2>
-            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-          </div>
-        </div>
+      <?php endforeach; ?>
       </div>
-      <button class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
+      <a href="/services" class="block w-48 text-center mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Learn More</a>
     </div>
   </section>
 
@@ -140,11 +87,11 @@
     </div>
     <div class="container px-5 py-24 mx-auto flex">
       <div class="lg:w-1/3 md:w-1/2 bg-gray-900 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
-        <h2 class="text-white text-lg mb-1 font-medium title-font">Feedback</h2>
+        <h2 class="text-white text-lg mb-1 font-medium title-font">Contact Us</h2>
         <p class="leading-relaxed mb-5 text-gray-500">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
-        <input class="bg-gray-800 text-white rounded border border-gray-700 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Email" type="email">
-        <textarea class="bg-gray-800 text-white rounded border border-gray-700 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none" placeholder="Message"></textarea>
-        <button class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
+        <?php 
+        echo do_shortcode('[contact-form-7 id="85" title="Contact Form"]');
+        ?>
         <p class="text-xs text-gray-600 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
       </div>
     </div>

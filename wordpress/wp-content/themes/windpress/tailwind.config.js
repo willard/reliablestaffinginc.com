@@ -3,10 +3,7 @@ module.exports = {
     './*.php'
   ],
   theme: {
-    height: theme => ({
-      'screen/2': '50vh',
-      'screen-7': 'calc(100vh - 7rem)',
-    }),
+    
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -20,7 +17,12 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    extend: {},
+    extend: {
+      height: theme => ({
+        'screen/2': '50vh',
+        'screen-7': 'calc(100vh - 7rem)',
+      }),
+    },
   },
   variants: {},
   plugins: [],

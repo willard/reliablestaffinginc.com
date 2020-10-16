@@ -1,0 +1,566 @@
+2020/09/28 01:13:57 [error] 29#29: *300 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:15:12 [error] 30#30: *303 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:16:11 [error] 29#29: *320 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:16:43 [error] 29#29: *320 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:18:24 [error] 29#29: *329 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:19:38 [error] 30#30: *335 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:19:47 [error] 30#30: *335 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/28 01:21:22 [error] 29#29: *338 FastCGI sent in stderr: "PHP message: PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_exit_intent_register_scripts' not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php on line 287" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.4:9000", host: "localhost:8080"
+2020/09/30 00:18:24 [error] 29#29: *80 client intended to send too large body: 3756922 bytes, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/post.php?post=22&action=edit"
+2020/10/13 01:37:13 [error] 28#28: *730 client intended to send too large body: 3989655 bytes, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/post.php?post=108&action=edit"
+2020/10/13 01:38:28 [error] 28#28: *726 client intended to send too large body: 1229558 bytes, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/post.php?post=108&action=edit"
+2020/10/13 01:38:56 [error] 28#28: *745 client intended to send too large body: 1229558 bytes, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/post.php?post=108&action=edit"
+2020/10/14 18:23:47 [error] 30#30: *286 client intended to send too large body: 1229343 bytes, client: 192.168.16.1, server: localhost, request: "POST /wp-json/wp/v2/media/ HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/jobs/test/"
+2020/10/14 22:48:44 [error] 28#28: *841 client intended to send too large body: 1230459 bytes, client: 192.168.16.1, server: localhost, request: "POST /jobs/test/ HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/jobs/test/"
+2020/10/15 20:01:55 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&settings-updated=1 HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:01:55 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Redis server went away in /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php:359
+Stack trace:
+#0 /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php(359): Redis->zRangeByScore('wp:redis-cache:...', 1602788515, 1602792055, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(287): Rhubarb\RedisCache\Plugin->enqueue_redis_metrics('settings_page_r...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-header.php(102): do_action('admin_enqueue_s...', 'settings_page_r...')
+#5 /var/www/html/wp-admin/admin.php(239): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#7 {main}" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&settings-updated=1 HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:02:56 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:03:27 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/plugins.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:03:35 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:03:35 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Redis server went away in /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php:359
+Stack trace:
+#0 /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php(359): Redis->zRangeByScore('wp:redis-cache:...', 1602788615, 1602792155, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(287): Rhubarb\RedisCache\Plugin->enqueue_redis_metrics('settings_page_r...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-header.php(102): do_action('admin_enqueue_s...', 'settings_page_r...')
+#5 /var/www/html/wp-admin/admin.php(239): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#7 {main}" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:03:44 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/plugin-install.php(16): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/plugin-install.php?tab=plugin-information&plugin=redis-cache& HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:04:39 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:05:39 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:06:39 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:07:39 [error] 29#29: *22 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function WP_REDIS_HOST() in /var/www/html/wp-config.php:95
+Stack trace:
+#0 /var/www/html/wp-load.php(37): require_once()
+#1 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#2 {main}
+  thrown in /var/www/html/wp-config.php on line 95" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:07:40 [error] 29#29: *35 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function WP_REDIS_HOST() in /var/www/html/wp-config.php:95
+Stack trace:
+#0 /var/www/html/wp-load.php(37): require_once()
+#1 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-config.php on line 95" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:08:07 [error] 29#29: *35 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function WP_REDIS_HOST() in /var/www/html/wp-config.php:95
+Stack trace:
+#0 /var/www/html/wp-load.php(37): require_once()
+#1 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-config.php on line 95" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:08:09 [error] 29#29: *35 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function WP_REDIS_HOST() in /var/www/html/wp-config.php:95
+Stack trace:
+#0 /var/www/html/wp-load.php(37): require_once()
+#1 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-config.php on line 95" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:11:22 [error] 29#29: *39 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:11:22 [error] 29#29: *39 FastCGI sent in stderr: "PHP message: RedisException: Redis server went away in /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php:359
+Stack trace:
+#0 /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php(359): Redis->zRangeByScore('wp:redis-cache:...', 1602789082, 1602792622, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(287): Rhubarb\RedisCache\Plugin->enqueue_redis_metrics('settings_page_r...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-header.php(102): do_action('admin_enqueue_s...', 'settings_page_r...')
+#5 /var/www/html/wp-admin/admin.php(239): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#7 {main}" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/plugins.php"
+2020/10/15 20:11:24 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:11:28 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&action=disable-cache&_wpnonce=408623ed8c HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:11:35 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&settings-updated=1 HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:11:35 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Redis server went away in /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php:359
+Stack trace:
+#0 /var/www/html/wp-content/plugins/redis-cache/includes/class-plugin.php(359): Redis->zRangeByScore('wp:redis-cache:...', 1602789095, 1602792635, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(287): Rhubarb\RedisCache\Plugin->enqueue_redis_metrics('settings_page_r...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-header.php(102): do_action('admin_enqueue_s...', 'settings_page_r...')
+#5 /var/www/html/wp-admin/admin.php(239): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#7 {main}" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&settings-updated=1 HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:12:36 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:13:36 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:14:36 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:15:37 [error] 29#29: *40 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:17:39 [error] 29#29: *51 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:18:43 [error] 29#29: *51 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:18:46 [error] 29#29: *51 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&action=disable-cache&_wpnonce=408623ed8c HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:20:05 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&settings-updated=1 HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:21:06 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:22:07 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:23:08 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:24:04 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:24:05 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:25:07 [error] 29#29: *54 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:27:13 [error] 29#29: *76 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:29:11 [error] 29#29: *78 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:30:47 [error] 29#29: *80 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:30:49 [error] 29#29: *82 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:30:51 [error] 29#29: *82 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:30:56 [error] 29#29: *82 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&action=disable-cache&_wpnonce=408623ed8c HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:31:56 [error] 29#29: *82 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/options-general.php(10): require_once('/var/www/html/w...')
+#9 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "GET /wp-admin/options-general.php?page=redis-cache&settings-updated=1 HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:32:57 [error] 29#29: *82 FastCGI sent in stderr: "PHP message: RedisException: Connection refused in /var/www/html/wp-content/object-cache.php:582
+Stack trace:
+#0 /var/www/html/wp-content/object-cache.php(582): Redis->connect('127.0.0.1', 6379, 1, NULL, NULL, 1)
+#1 /var/www/html/wp-content/object-cache.php(427): WP_Object_Cache->connect_using_phpredis(Array)
+#2 /var/www/html/wp-content/object-cache.php(173): WP_Object_Cache->__construct(true)
+#3 /var/www/html/wp-includes/load.php(638): wp_cache_init()
+#4 /var/www/html/wp-settings.php(131): wp_start_object_cache()
+#5 /var/www/html/wp-config.php(90): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}" while reading response header from upstream, client: 192.168.16.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/options-general.php?page=redis-cache"
+2020/10/15 20:52:00 [error] 29#29: *128 FastCGI sent in stderr: "PHP message: PHP Deprecated:  wp_make_content_images_responsive is <strong>deprecated</strong> since version 5.5.0! Use wp_filter_content_tags() instead. in /var/www/html/wp-includes/functions.php on line 4773" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /about-us/ HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/10/15 20:52:00 [error] 29#29: *128 FastCGI sent in stderr: "PHP message: PHP Deprecated:  wp_make_content_images_responsive is <strong>depre" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /about-us/ HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/10/15 20:52:00 [error] 29#29: *128 FastCGI sent in stderr: "cated</strong> since version 5.5.0! Use wp_filter_content_tags() instead. in /var/www/html/wp-includes/functions.php on line 4773" while reading upstream, client: 192.168.16.1, server: localhost, request: "GET /about-us/ HTTP/1.1", upstream: "fastcgi://192.168.16.5:9000", host: "localhost:8080", referrer: "http://localhost:8080/"
+2020/10/15 21:02:36 [emerg] 1#1: "fastcgi_cache" zone "phpcache" is unknown in /etc/nginx/nginx.conf:32
+2020/10/15 21:04:15 [emerg] 1#1: "fastcgi_cache_path" directive is not allowed here in /etc/nginx/conf.d/default.conf:22
+2020/10/16 01:03:40 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:03:41 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:03:42 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:03:44 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:03:46 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:03:49 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:03:53 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:00 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:15 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:34 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:35 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:36 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:37 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:39 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:41 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:45 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:04:52 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:05:05 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:05:31 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:06:23 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:07:23 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:08:23 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:09:24 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:10:24 [emerg] 1#1: open() "/etc/letsencrypt/options-ssl-nginx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:110
+2020/10/16 01:11:25 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:03 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:07 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:09 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:12 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:16 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:18 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:22 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:30 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:14:43 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:15:09 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:16:01 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:17:01 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:18:02 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:35 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:36 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:37 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:43 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:45 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:48 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:52 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:20:59 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/10/16 01:22:44 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/reliable.test/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/reliable.test/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
